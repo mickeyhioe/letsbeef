@@ -1,0 +1,73 @@
+/* ----------------------------------------------------------------------------
+ * Variables
+ * ------------------------------------------------------------------------- */
+$white		    : rgba(255, 255, 255, 1);
+$black        : rgba(0,0,0,1);
+$panther-black: rgba(12,12,12,1);
+$night-grey	  : rgba(19,20,21,1);
+$shadow-grey  : rgba(31,32,33,1);
+$iron-grey    : rgba(49,49,50,1);
+$steel-grey   : rgba(89,90,91,1);
+$silver-grey  : rgba(158,158,158,1);
+$beef-blue    : rgba(1,119,255,1);
+$hot-orange   : rgba(255,102,10,1);
+$lime-green   : rgba(207,255,4,1);
+
+$size__site-main: 100%;
+$size__site-sidebar: 25%;
+
+$xsmall: 320px;
+$small: 480px;
+$medium: 768px;
+$large: 1024px;
+$xlarge: 1400px;
+
+$width: 96%;
+$gutter: 4%;
+
+// Fonts
+@include fontface('Tungsten', '../fonts/tungsten', 'Tungsten-Light', 300);
+@include fontface('Tungsten', '../fonts/tungsten', 'Tungsten-Medium', 500);
+@include fontface('Tungsten', '../fonts/tungsten', 'Tungsten-Semibold', 600);
+@include fontface('Tungsten', '../fonts/tungsten', 'Tungsten-Bold','bold');
+
+@include fontface('Moderat', '../fonts/moderat', 'Moderat-Regular', 'normal');
+@include fontface('Moderat Bold', '../fonts/moderat', 'Moderat-Bold', 'bold');
+
+@include fontface('PT Mono', '../fonts/pt_mono', 'PTMono-Regular', 'normal');
+
+
+$primary_regular    : "Moderat", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+$primary_bold       : "Moderat Bold", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+$secondary_regular  : "Tungsten", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+$tertiary_regular   : "PT Mono", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+
+$transition: all 0.3s ease-in-out;
+
+
+// Color
+$colors: (
+  white: $white,
+  black: $black,
+  panther-black: $panther-black,
+  night-grey: $night-grey,
+  shadow-grey: $shadow-grey,
+  iron-grey: $iron-grey,
+  steel-grey: $steel-grey,
+  silver-grey: $silver-grey,
+  beef-blue : $beef-blue,  
+  hot-orange : $hot-orange,
+  lime-green : $lime-green
+);
+
+
+@mixin gen-props($prefix, $property) {
+    @each $color-name, $color in $colors {
+      .#{$prefix}-#{$color-name} {
+        #{$property}: $color
+      }
+    }
+  }
+
+  @include gen-props('text', 'color');
+  @include gen-props('bg', 'background');

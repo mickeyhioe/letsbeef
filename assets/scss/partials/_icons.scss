@@ -1,0 +1,69 @@
+/*********************
+ICONS
+*********************/
+[class^="icon-"]{
+    display: block;
+    text-align: center;
+    text-transform: uppercase;
+    position: relative;
+    &:before{
+        content: '';
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        display: block;
+        width: 20px;
+        height: 20px;
+        margin: 0 auto 10px;
+    }
+}
+
+.icon{
+    &-credit::before{
+        background-image: url('../img/top_nav/user-Credz.svg');
+    }
+    &-badge::before{
+        background-image: url('../img/top_nav/user-Badge.svg');
+    }
+    &-message::before{
+        background-image: url('../img/top_nav/user-Message.svg');
+    }
+    &-notification::before{
+        background-image: url('../img/top_nav/user-Notification.svg');
+    }
+    &-discover::before{
+        background-image: url('../img/left_nav/menu-Discover-selected.svg');
+    }
+    &-battles::before{
+        background-image: url('../img/left_nav/menu-Battles-selected.svg');
+    }
+    &-cyphers::before{
+        background-image: url('../img/left_nav/menu-Cyphers-selected.svg');
+    }
+    &-tourneys::before{
+        background-image: url('../img/left_nav/menu-Tourneys-selected.svg');
+    }
+    &-leaders::before{
+        background-image: url('../img/left_nav/menu-Leaders-selected.svg');
+    }
+    &-forums::before{
+        background-image: url('../img/left_nav/menu-Forums-selected.svg');
+    }
+    &-fist-bump::before{
+        background-image: url('../img/top_nav/fist-bump.svg');
+    }
+}
+
+/*********************
+STATUS
+*********************/
+.status-active{
+    width: 8px;
+    height: 8px;
+    background: $beef-blue;
+    border-radius: 50%;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+}

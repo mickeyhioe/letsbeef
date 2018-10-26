@@ -1,0 +1,51 @@
+/*********************
+HEADER
+*********************/
+.header{
+	background: $black; 
+	display: block;
+	width: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	padding-left: 70px;
+	z-index: 99;
+	@include transition($transition);
+	.grid-container.fluid{
+		padding: 0;
+		@include breakpoint(medium){
+			padding-right: .625rem;
+    		padding-left: .625rem;
+		}
+	}
+	.top-bar{
+		background: $black; 
+		height: 60px;
+		padding: 0;
+		ul{
+			background: transparent;
+		}
+	}
+}
+
+
+/*********************
+SEARCH
+*********************/
+#full-screen-search{
+	background: $black;
+	z-index: 99999;
+	position: fixed;
+	width: 100%;
+	height: 0;
+	top: 0;
+	left:0;
+	visibility: hidden;
+	opacity: 0;
+	@include transition ($transition);
+	&.open{
+		visibility: visible;
+		opacity: 1;
+		height: 100%;
+	}
+}

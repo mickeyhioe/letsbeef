@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 39.954 28.767">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <g id="Logo" transform="translate(-15 -12)">
+    <g id="Group_2" data-name="Group 2" transform="translate(15 12)">
+      <g id="Group_1" data-name="Group 1">
+        <path id="Path_167" data-name="Path 167" class="cls-1" d="M3.2,0V12.785h3.2v3.2H0V0Z"/>
+      </g>
+      <path id="Path_168" data-name="Path 168" class="cls-1" d="M35.991,9.76v3.253c0,2-.97,2.968-2.968,2.968H28V0h4.966c2,0,2.968.97,2.968,2.968V5.337c0,1.37-.485,2.055-1.313,2.369A1.823,1.823,0,0,1,35.991,9.76ZM32.2,3.539h-.742v3H32.2c.4,0,.571-.171.571-.571V4.11C32.766,3.71,32.595,3.539,32.2,3.539Zm-.742,8.9h.8c.4,0,.571-.171.571-.571V9.76c0-.4-.171-.571-.571-.571h-.8Z" transform="translate(-20.009)"/>
+    </g>
+    <rect id="Rectangle_2" data-name="Rectangle 2" class="cls-1" width="20.776" height="3.196" transform="translate(34.178 12)"/>
+    <rect id="Rectangle_3" data-name="Rectangle 3" class="cls-1" width="20.776" height="3.196" transform="translate(34.178 18.393)"/>
+    <rect id="Rectangle_4" data-name="Rectangle 4" class="cls-1" width="20.776" height="3.196" transform="translate(34.178 24.785)"/>
+    <rect id="Rectangle_5" data-name="Rectangle 5" class="cls-1" width="39.954" height="3.196" transform="translate(15 31.178)"/>
+    <rect id="Rectangle_6" data-name="Rectangle 6" class="cls-1" width="39.954" height="3.196" transform="translate(15 37.57)"/>
+  </g>
+</svg>

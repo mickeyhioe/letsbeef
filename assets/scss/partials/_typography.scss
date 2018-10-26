@@ -1,0 +1,74 @@
+/*********************
+TYPOGRAPHY
+*********************/ 
+body {
+  font-family: $primary_regular;
+}
+
+ 
+h1, h2,
+.h1, .h2{
+  font-family: $secondary_regular;
+  font-weight: bold;
+}
+  
+h3, h4, h5, h6,
+.h3, .h4, .h5, .h6{
+  font-family: $secondary_regular;
+  font-weight: 600;
+}
+
+h1,h2,h3,
+.h1, .h2, .h3{
+  line-height: 1;
+} 
+  
+h1, .h1 {
+  font-size: 2.75em;
+}
+
+h2,.h2 {
+  font-size: 2.5em;
+}
+
+h3 {
+  font-size: 2.25em;
+}
+
+h4 {
+  font-size: 2em;
+}
+
+h5 {
+  font-size: 1.75em;
+}
+
+h6 {
+  font-size: 1.5em;
+}
+
+
+p{
+  &.intro{
+    font-family: $primary_regular;
+    font-weight: bold;
+    font-size: 1.125em;
+    line-height: 1.4;
+  }
+}
+
+b, strong{
+  font-family: $primary_regular;
+  font-weight: bold;
+}
+
+.primary-bold{
+  font-family: $primary_regular;
+  font-weight: bold;
+}
+
+.secondary-bold{
+  font-family: $secondary_regular;
+  font-weight: bold;
+  letter-spacing: .02em;
+}

@@ -1,0 +1,22 @@
+/*********************
+GENERAL STYLES
+*********************/
+body{
+	background-color: $night-grey;
+	color: $white; 
+}
+
+.wrapper{
+	margin-top: 60px;
+	margin-left: 60px;
+	padding: 10px;
+	@include breakpoint(medium){
+		margin-left: 70px;
+		padding: 20px;
+	}
+}
+
+.full-height{
+	min-height: 100vh;
+	height: 100%;
+}

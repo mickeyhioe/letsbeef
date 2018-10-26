@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 18 18">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        clip-path: url(#clip-path);
+      }
+    </style>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_202" data-name="Rectangle 202" class="cls-1" width="18" height="18" transform="translate(1588.2 3353.5)"/>
+    </clipPath>
+  </defs>
+  <g id="Mask_Group_10" data-name="Mask Group 10" class="cls-2" transform="translate(-1588.2 -3353.5)">
+    <g id="Leaderboards_1_" transform="translate(1589.7 3355)">
+      <g id="Group_407" data-name="Group 407" transform="translate(0 5.898)">
+        <path id="Path_557" data-name="Path 557" class="cls-1" d="M5.118,121H.448A.448.448,0,0,1,0,120.554v-8.206a.448.448,0,0,1,.448-.448h4.67a.448.448,0,0,1,.448.448v8.206A.448.448,0,0,1,5.118,121Zm-4.222-.9H4.67V112.8H.9Z" transform="translate(0 -111.9)"/>
+      </g>
+      <g id="Group_408" data-name="Group 408" transform="translate(4.67)">
+        <path id="Path_558" data-name="Path 558" class="cls-1" d="M93.718,15h-4.67a.448.448,0,0,1-.448-.448V.448A.448.448,0,0,1,89.048,0h4.67a.448.448,0,0,1,.448.448v14.1A.448.448,0,0,1,93.718,15ZM89.5,14.1H93.27V.9H89.5Z" transform="translate(-88.6)"/>
+      </g>
+      <g id="Group_409" data-name="Group 409" transform="translate(9.339 3.125)">
+        <path id="Path_559" data-name="Path 559" class="cls-1" d="M182.318,71.175h-4.67a.448.448,0,0,1-.448-.448V59.748a.448.448,0,0,1,.448-.448h4.67a.448.448,0,0,1,.448.448V70.727A.448.448,0,0,1,182.318,71.175Zm-4.222-.9h3.774V60.2H178.1Z" transform="translate(-177.2 -59.3)"/>
+      </g>
+    </g>
+  </g>
+</svg>

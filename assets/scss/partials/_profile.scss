@@ -1,0 +1,247 @@
+/*********************
+PROFILE CONTAINER
+*********************/
+.profile-container{
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+}
+
+/*********************
+PROFILE AVATAR
+*********************/
+
+.profile-status-container{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.profile-avatar{
+	width: 60px;
+	height: 60px;	
+	a{
+		width: 40px;
+		height: 40px;
+		position: relative;
+		display: block;
+		margin: 10px;
+	}
+	img{
+		width: 100%;
+		height: auto;
+		border-radius: 50%;
+	}
+	&.open{
+
+	}
+}
+
+/*********************
+PROFILE MENU
+*********************/
+.profile-menu{
+	width: 40px;
+	height: 40px;
+	text-indent: -9999px;
+	opacity: .8;
+	@include transition($transition);
+	@include breakpoint(large){
+		width: 60px;
+	}
+	&:before{
+		content: '';
+		background-image: url('../img/top_nav/arrow-dropdown.svg');
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: 30px;
+		display: block;
+		width: 40px;
+		height: 40px;
+		margin: 0 auto;
+		@include transform(rotate(0deg));
+		@include transition($transition);
+		@include breakpoint(large){
+			background-size: 30px;
+		}
+	}
+	&:hover{
+		opacity: 1;
+	}
+	&.open{
+		&:before{
+			@include transform(rotate(180deg));
+		}
+	}
+}
+
+/*********************
+PROFILE STATUS
+*********************/
+.profile-status{
+	z-index: -1;
+	background: $shadow-grey;
+	position: absolute;
+	top: -150px; 
+	right: 40px;
+	@include transition($transition);
+	@include breakpoint(medium){
+		right: 50px;
+	}
+	@include breakpoint(large){
+		position: static;
+		background: transparent;
+		width: auto;
+		top: 0;
+		z-index: 0;
+	}
+	&.open{
+		top: 60px;
+	}
+	ul{
+		list-style-type: none;
+		display: flex;
+		justify-content: flex-end;
+		position: relative;
+		margin: 15px 10px 0;
+		flex-direction: column;
+		@include breakpoint(large){
+			flex-direction: row;
+			margin: 0 10px;
+		}
+		li{
+			text-align: center;
+			visibility: hidden;
+			margin-bottom: 15px;
+            width: 40px;
+            animation: slideInUp .5s ease forwards;
+			@include breakpoint(large){
+				margin-bottom: 0;
+                width: 0;               
+                animation: slideInLeft 1s ease forwards;
+			}
+			a{
+				color: $white;
+				font-size: .5625em;
+				display: block;
+				font-family: $tertiary_regular;
+				position: relative;
+				span{
+					opacity: .4;
+					@include transition($transition);
+					&:before{
+						margin-bottom: 5px;						
+					}
+				}
+				.status-active{
+					right: initial;
+					left: 60%;
+					opacity: 1;
+				}
+				
+				&:hover{
+					span{
+						opacity: 1;
+					}
+				}				
+			}
+		}
+	}
+	&.open{
+		li {
+            animation: slideInDown .5s ease forwards;
+			@include breakpoint(large){
+                animation: slideInRight 1s ease forwards;
+			}
+		}
+	}
+}
+
+
+@keyframes slideInRight {
+  0% {
+	width: 0;
+	opacity: 0;	
+  }
+  100% {
+	width: 60px;
+	visibility: visible;
+	opacity: 1;	
+  }
+}
+
+@keyframes slideInLeft {
+	0% {
+	  width: 60px;
+	}
+	100% {
+	  width: 0px;
+	  opacity: 0;
+	  visibility: hidden;
+	}
+}
+
+@keyframes slideInDown {
+	0% {
+	  height: 0;
+	  opacity: 0;	
+	}
+	100% {
+	  height: 40px;
+	  visibility: visible;
+	  opacity: 1;	
+	}
+}
+  
+@keyframes slideInUp {
+	0% {
+		height: 40px;
+	}
+	100% {
+		height: 0px;
+		opacity: 0;
+		visibility: hidden;
+	}
+}
+
+
+/*********************
+PROFILE NAVIGATION
+*********************/
+.profile-nav{
+	z-index: -1;
+	background: $shadow-grey;
+	text-align: right;
+	position: absolute;
+	min-width: 155px;
+	top: -150px; 
+	right: 20px;
+	@include transition($transition);
+	&.open{
+		top: 60px;
+	}
+	.profile-name{
+		padding: 15px 15px 5px;
+		font-family: $primary_bold;
+		font-size: .75em;
+	}
+	ul{
+		list-style-type: none;
+		margin: 0;
+		padding:0 0 10px;	
+		li{			
+			a{
+				text-transform: uppercase;
+				letter-spacing: .1rem;
+				color: $silver-grey;
+				font-size: .5625em;
+				display: block;
+				padding: 5px 15px;
+				@include transition($transition);
+				&:hover{
+					color: $white;
+				}
+			}
+		}
+	}
+}

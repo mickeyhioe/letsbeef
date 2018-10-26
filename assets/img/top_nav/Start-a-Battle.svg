@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 223 38">
+  <defs>
+    <style>
+      .cls-1, .cls-3, .cls-6, .cls-8 {
+        fill: none;
+      }
+
+      .cls-1 {
+        stroke: #707070;
+      }
+
+      .cls-2 {
+        clip-path: url(#clip-path);
+      }
+
+      .cls-3 {
+        stroke: #0177ff;
+      }
+
+      .cls-4 {
+        fill: #fff;
+        font-size: 20px;
+        font-family: Tungsten-Bold, Tungsten;
+        font-weight: 700;
+        letter-spacing: 0.2em;
+      }
+
+      .cls-5 {
+        letter-spacing: 0.38em;
+      }
+
+      .cls-6 {
+        stroke: #fff;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-7 {
+        stroke: none;
+      }
+    </style>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_213" data-name="Rectangle 213" class="cls-1" width="223" height="38" transform="translate(130 11)"/>
+    </clipPath>
+  </defs>
+  <g id="Mask_Group_20" data-name="Mask Group 20" class="cls-2" transform="translate(-130 -11)">
+    <g id="Start_a_Battle" data-name="Start a Battle" transform="translate(60)">
+      <g id="Group_292" data-name="Group 292" transform="translate(-117 -269)">
+        <g id="Rectangle_190" data-name="Rectangle 190" class="cls-3" transform="translate(187 280)">
+          <rect class="cls-7" width="223" height="38" rx="19"/>
+          <rect class="cls-8" x="0.5" y="0.5" width="222" height="37" rx="18.5"/>
+        </g>
+        <text id="START_A_BATTLE-2" data-name="START A BATTLE" class="cls-4" transform="translate(211.063 306)"><tspan x="0" y="0">START A BATTL</tspan><tspan class="cls-5" y="0">E</tspan></text>
+        <g id="Group_456" data-name="Group 456" transform="translate(363.1 288.856)">
+          <path id="Path_306" data-name="Path 306" class="cls-6" d="M117.254,139.359a2.659,2.659,0,0,1-2.411,1.157h0a3.05,3.05,0,0,1-3.043-3.043v-8.1" transform="translate(-107.339 -123.488)"/>
+          <path id="Path_307" data-name="Path 307" class="cls-6" d="M229.163,128.4v8.2a2.937,2.937,0,0,1-2.785,3.06h-.287a2.859,2.859,0,0,1-2.691-3.06v-8.2" transform="translate(-213.801 -122.518)"/>
+          <path id="Path_308" data-name="Path 308" class="cls-6" d="M19.515,30.721A2.6,2.6,0,0,1,17.4,31.846h-.168a2.487,2.487,0,0,1-2.4-2.552L15,20.069a2.487,2.487,0,0,1,2.4-2.552h0a2.964,2.964,0,0,1,2.118.9h0a2.946,2.946,0,0,1,2.849-2.78h0a2.827,2.827,0,0,1,2.369,1.343l.028,0a2.885,2.885,0,0,1,2.89-2.081h0a2.755,2.755,0,0,1,2.769,2.4l.028.02a2.576,2.576,0,0,1,2.43-1.125h0a2.961,2.961,0,0,1,2.858,3.043v9.94a2.961,2.961,0,0,1-2.858,3.043h0a3.073,3.073,0,0,1-2.76-1.809" transform="translate(-15 -14.9)"/>
+          <path id="Path_309" data-name="Path 309" class="cls-6" d="M280.872,129.7s3.823,10.358,2.525,13.148c-1.209,2.6-3.494.808-6.9,2.205-4.227,1.734-5.842-.7-4.52-2.569" transform="translate(-260.151 -125.155)"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

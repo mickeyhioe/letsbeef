@@ -1,0 +1,52 @@
+/*********************
+FORM
+*********************/
+.search-form{    
+    input[type=text]{
+        font-family: $tertiary_regular;
+        color: $white;
+        border: none;
+        border-bottom: 1px solid $silver-grey;
+        background: transparent;
+        margin: 0;
+        &:focus{
+            background: transparent;
+            border: none;
+            border-bottom: 1px solid $silver-grey;
+            box-shadow: none;
+        }
+    }
+    .button-inside{
+        position: relative;
+        button.arrow {
+            position: absolute;
+            cursor: pointer;
+            top: 12px;
+            right: 0;
+            width: 20px;
+            height: 20px;
+            background-image: url(../img/top_nav/arrow-search.svg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: 50%;
+            opacity: .6;
+            @include transition($transition);
+            &:hover{
+                animation: leftRight .5s 2 ease forwards;
+                opacity: 1;
+            }
+        }
+    }
+}
+
+@keyframes leftRight {
+    0% {
+      right: 0	
+    }
+    50% {
+        right: 10px;
+      }
+    100% {
+      right: 0;
+    }
+}

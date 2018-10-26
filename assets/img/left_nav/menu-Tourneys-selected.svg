@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 18 18">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        clip-path: url(#clip-path);
+      }
+    </style>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_204" data-name="Rectangle 204" class="cls-1" width="18" height="18" transform="translate(1588.2 3289.5)"/>
+    </clipPath>
+  </defs>
+  <g id="Mask_Group_11" data-name="Mask Group 11" class="cls-2" transform="translate(-1588.2 -3289.5)">
+    <g id="Tourneys_1_" transform="translate(1589 3291)">
+      <g id="Group_410" data-name="Group 410" transform="translate(4.499)">
+        <path id="Path_560" data-name="Path 560" class="cls-1" d="M97.165,4.469H90.723a.423.423,0,0,1-.423-.423V.423A.423.423,0,0,1,90.723,0h6.441a.423.423,0,0,1,.423.423V4.045A.423.423,0,0,1,97.165,4.469Zm-6.018-.847h5.594V.847H91.147Z" transform="translate(-90.3)"/>
+      </g>
+      <g id="Group_411" data-name="Group 411" transform="translate(3.218 7.149)">
+        <path id="Path_561" data-name="Path 561" class="cls-1" d="M74.444,147.276H73.6v-2.929h-8.15v2.929H64.6v-3.353a.423.423,0,0,1,.423-.423h9a.423.423,0,0,1,.423.423Z" transform="translate(-64.6 -143.5)"/>
+      </g>
+      <g id="Group_412" data-name="Group 412" transform="translate(7.717 3.98)">
+        <rect id="Rectangle_203" data-name="Rectangle 203" class="cls-1" width="0.847" height="4.015"/>
+      </g>
+      <g id="Group_413" data-name="Group 413" transform="translate(8.997 10.531)">
+        <path id="Path_562" data-name="Path 562" class="cls-1" d="M187.46,215.869h-6.436a.423.423,0,0,1-.423-.423v-3.622a.423.423,0,0,1,.423-.423h6.441a.423.423,0,0,1,.423.423v3.622A.431.431,0,0,1,187.46,215.869Zm-6.013-.847h5.594v-2.775h-5.594Z" transform="translate(-180.6 -211.4)"/>
+      </g>
+      <g id="Group_414" data-name="Group 414" transform="translate(0 10.531)">
+        <path id="Path_563" data-name="Path 563" class="cls-1" d="M6.865,215.869H.423A.423.423,0,0,1,0,215.445v-3.622a.423.423,0,0,1,.423-.423H6.865a.423.423,0,0,1,.423.423v3.622A.423.423,0,0,1,6.865,215.869Zm-6.018-.847H6.441v-2.775H.847Z" transform="translate(0 -211.4)"/>
+      </g>
+    </g>
+  </g>
+</svg>

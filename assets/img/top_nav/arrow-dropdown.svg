@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 18 18">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+
+      .cls-1, .cls-3 {
+        stroke: #595a5b;
+      }
+
+      .cls-2 {
+        clip-path: url(#clip-path);
+      }
+
+      .cls-3 {
+        fill: none;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-miterlimit: 10;
+      }
+    </style>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_214" data-name="Rectangle 214" class="cls-1" width="18" height="18" transform="translate(632.7 2686)"/>
+    </clipPath>
+  </defs>
+  <g id="Mask_Group_21" data-name="Mask Group 21" class="cls-2" transform="translate(-632.7 -2686)">
+    <g id="icon-dropdown" transform="translate(-820 2665.5)">
+      <path id="Path_320" data-name="Path 320" class="cls-3" d="M15,15l3.751,3L22.5,15" transform="translate(1443 13.5)"/>
+    </g>
+  </g>
+</svg>
