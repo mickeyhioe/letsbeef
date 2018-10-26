@@ -1,4 +1,4 @@
-# RICanada
+# Let's Beef
 
 ``` bash
 # install dependencies
